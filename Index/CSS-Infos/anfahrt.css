@@ -1,0 +1,28 @@
+
+
+
+.maps-container {
+    /* background-color: var(--secondary-color);     */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+.maps-text {  
+    background-color: var(--secondary-color);
+    text-align: center;  
+    width: 40%;
+    margin-left: 15px;
+    height: 250px;
+}
+
+.google-maps {
+    width: 60%;
+    height: 500px;
+    border: 0; 
+}
+
+
+
+
