@@ -109,3 +109,15 @@ footer h2 {
         font-size: 24px;
     }
 }
+
+.legal_text{
+    background-color: #121212;
+    text-align: center;
+   
+
+
+}
+.legals {
+    text-decoration: none;
+    color: white;
+}

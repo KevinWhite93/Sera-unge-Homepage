@@ -5,7 +5,7 @@ header {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
-    
+
 }
 
 .header_text {
@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .square img {
@@ -32,9 +33,10 @@ header {
 
 nav {
     margin-bottom: 120px;
-    background-color: var(--secondary-color);  
-   height: 50px;
-   width: 550px;
+    background-color: var(--secondary-color);
+    height: 50px;
+    width: 575px;
+    /* margin-left: 150px; */
 }
 
 nav ul {
@@ -48,12 +50,12 @@ nav a {
     text-decoration: none;
     position: relative;
     padding: 5px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 nav a:hover {
     color: var(--text-color);
-    
+
 }
 
 nav a::after {
@@ -75,11 +77,11 @@ nav a:hover::after {
     display: none;
 }
 
-label[for="toggle_button"] span{
+label[for="toggle_button"] span {
     display: none;
 }
 
-label[for="toggle_button"] span{
+label[for="toggle_button"] span {
     font-size: 40px;
 }
 
@@ -94,15 +96,17 @@ label[for="toggle_button"] span{
         border-radius: 0 0 25px 0;
 
     }
+
     nav ul {
         display: none;
-        flex-direction: column;        
+        flex-direction: column;
     }
-    #toggle_button:checked ~ ul {
+
+    #toggle_button:checked~ul {
         display: flex;
     }
-    label[for="toggle_button"] span{
+
+    label[for="toggle_button"] span {
         display: block;
     }
 }
-

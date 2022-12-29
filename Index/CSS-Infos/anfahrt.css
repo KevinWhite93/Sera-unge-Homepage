@@ -1,28 +1,36 @@
 
 
+body{
+    background-color: #121212;
+}
 
-.maps-container {
-    /* background-color: var(--secondary-color);     */
-    padding: 10px;
+.Nav_Anfahrt{
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+}
+
+.maps_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.google_maps{
     max-width: 90%;
-}
-
-.maps-text {  
-    background-color: var(--secondary-color);
-    text-align: center;  
-    width: 40%;
-    margin-left: 15px;
-    height: 250px;
-}
-
-.google-maps {
-    width: 60%;
+    width: 80%;
     height: 500px;
-    border: 0; 
 }
 
-
-
+.maps_text{
+    background-color: #434343;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: inherit;
+    width: 20%;
+    max-width: 90%;
+    color: white;
+}
+   
 
